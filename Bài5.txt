@@ -1,0 +1,19 @@
+I. Thuộc tính
+| Tên thuộc tính| Kiểu dữ liệu| Vai trò                                                                                                                                                                          | 
+|---------------|-------------|----------------------------------------|
+| maSach        | String      | Mã định danh duy nhất cho mỗi cuốn sách|  
+|---------------|-------------|----------------------------------------|                                                                                                                                                                                                                                                                                                                                                                                                       
+| tenSach       | String      | Tên của cuốn sách                      |
+|---------------|-------------|----------------------------------------|                                                                                                                                                                                                                                                                                                                                            
+| tacGia        | String      | Tên tác giả của sách                   |                               
+|---------------|-------------|----------------------------------------|                                                                                                                                                                                                                                                                                                                                                                                                       
+| namXuatBan    | Nummber     | Năm xuất bản của cuốn sách             |
+|---------------|-------------|----------------------------------------|                                                                                                                                                                                                                                                                                                                                                                                                         
+| trangThai     | String      | Tình trạng sách ("Còn", "Đang mượn")   |
+II. Phương thức
+| Tên phương thức             | Mô tả chức năng                                |
+|-----------------------------|------------------------------------------------|
+| hienThiThongTin()           | Hiển thị thông tin chi tiết của cuốn sách      |
+| capNhatTrangThai(String moi)| Cập nhật trạng thái mới cho sách               |
+| kiemTraTinhTrang()          | Kiểm tra xem sách hiện có sẵn để mượn hay không|
+
